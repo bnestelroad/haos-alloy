@@ -1,5 +1,10 @@
 # Changelog
 
+## 1.1.0-fleet.2 — bnestelroad fork
+
+- Bump bundled Grafana Alloy `1.13.1` → `1.18.1` (latest stable, 2026-08-06).
+  Upstream had left the pin stale; self-maintaining means tracking current.
+
 ## 1.1.0-fleet.1 — bnestelroad fork
 
 Fork of `Whizzlefred/haos-alloy` for the exitinterview.sh fleet. See ADR-HOME-015.
