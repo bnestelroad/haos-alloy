@@ -1,5 +1,15 @@
 # Changelog
 
+## 1.1.0-fleet.1 — bnestelroad fork
+
+Fork of `Whizzlefred/haos-alloy` for the exitinterview.sh fleet. See ADR-HOME-015.
+
+- Add `job = "homeassistant"` and `instance = "homeassistant"` static labels so
+  logs match the fleet's `job`-based query convention (Robot Rollcall checks,
+  the `unifi` syslog pipeline).
+- Change `env` label `prod` → `production` to match existing fleet targets.
+- Default `loki_url` to the fleet Loki (`http://192.168.1.10:3100/loki/api/v1/push`).
+
 ## 1.1.0
 
 - Add `ca_cert_file` option for custom CA certificate support (Closes #7)

@@ -80,8 +80,10 @@ loki.source.journal "system" {
   forward_to    = [loki.process.default.receiver]
   relabel_rules = loki.relabel.journal.rules
   labels = {
+    job         = "homeassistant",
+    instance    = "homeassistant",
     host        = "homeassistant",
-    env         = "prod",
+    env         = "production",
     source_type = "journald",
   }
 }

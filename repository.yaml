@@ -1,4 +1,4 @@
 ---
-name: Grafana Alloy for Home Assistant
-url: https://github.com/Whizzlefred/haos-alloy
-maintainer: Whizzlefred
+name: Grafana Alloy for Home Assistant (Fleet fork)
+url: https://github.com/bnestelroad/haos-alloy
+maintainer: bnestelroad (fork of Whizzlefred/haos-alloy)
